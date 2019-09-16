@@ -3,7 +3,6 @@
 *Created by: Zhixin Yu
 *Created:	2019/09/15
 ******************************************************************************
-
 * Set working environment
 clear all
 capture log close
@@ -31,7 +30,6 @@ reg ltotexp suppin phylim actlim totchr age female income
 *    Residual |  4260.16814     2,947  1.44559489   R-squared       =    0.2289
 *-------------+----------------------------------   Adj R-squared   =    0.2271
 *       Total |  5524.88938     2,954  1.87030785   Root MSE        =    1.2023
-*
 *------------------------------------------------------------------------------
 *     ltotexp |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
 *-------------+----------------------------------------------------------------
@@ -44,7 +42,6 @@ reg ltotexp suppin phylim actlim totchr age female income
 *      income |   .0025498   .0010194     2.50   0.012      .000551    .0045486
 *       _cons |   6.703737     .27676    24.22   0.000     6.161075      7.2464
 *------------------------------------------------------------------------------
-
 
 ******************************* Question (f) *******************************
 
@@ -90,7 +87,6 @@ total(ltotexp_hat)
 total(ltotexp)
 * 23816.91
 
-
 ******************************* Question (g) *******************************
 
 * generate one additional regressor age2 = age^2
@@ -105,7 +101,6 @@ reg ltotexp suppin phylim actlim totchr female income age age2
 *    Residual |  4245.79353     2,946  1.44120622   R-squared       =    0.2315
 *-------------+----------------------------------   Adj R-squared   =    0.2294
 *       Total |  5524.88938     2,954  1.87030785   Root MSE        =    1.2005
-*
 *------------------------------------------------------------------------------
 *     ltotexp |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
 *-------------+----------------------------------------------------------------
@@ -120,9 +115,7 @@ reg ltotexp suppin phylim actlim totchr female income age age2
 *       _cons |  -3.706789   3.307946    -1.12   0.263    -10.19291     2.77933
 *------------------------------------------------------------------------------
 
-
 * For the answer to each questions, please refer to my answer sheets
-
 
 * save the modified data and close log-file, stop recording
 save ECON608_PS2_data1_ZY, replace
