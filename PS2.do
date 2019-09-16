@@ -124,16 +124,3 @@ save ECON608_PS2_data1_ZY, replace
 * Thank you for reading! Feel free making comments! Have a good day!
 ******************************************************************************
 * The End
-
-
-
-
-
-
-
-
-
-
-
-
-
